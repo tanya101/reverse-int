@@ -1,4 +1,4 @@
-module.exports = reverse = (n) => {
+module.exports = function reverse(n) {
 
   const result = Number(Math.abs(n).toString().split('').reverse().join(''));
 
@@ -6,8 +6,3 @@ module.exports = reverse = (n) => {
   
   return result
 }
-
-// 123 => 321
-
-
-reverse(123566)
